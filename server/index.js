@@ -40,6 +40,8 @@ if (!global.TESTING && config.NODE_ENV !== 'test') {
     debug(`Express server listening on ${config.APP_HOST}:${config.APP_PORT}`);
   });
 }
+if (!global.TESTING && config.NODE_ENV !== 'test') {
 
+}
 // app is exported for testing purpose
 exports = module.exports = app;
