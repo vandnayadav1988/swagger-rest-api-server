@@ -32,7 +32,7 @@ paths:
         - name: _tag
           in: body
           description: Details of the tag
-          required: true
+          required: false
           schema:
             $ref: ../models/tag.yaml
       responses:
