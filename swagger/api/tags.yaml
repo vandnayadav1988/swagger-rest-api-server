@@ -4,7 +4,7 @@ info:
   title: Swagger API server example
   description: "These are the API for a tag management system"
 host: api.asc.com
-basePath: /v2
+basePath: /v3/ersm
 schemes:
   - https
 consumes:
