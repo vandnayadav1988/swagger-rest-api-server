@@ -48,7 +48,7 @@ exports = module.exports = function(config) {
       });
     }
     // 2. body should have an identityID
-    if (!req.body.identityID) {
+    if (!req.body.identityIDnew) {
       return res.status(400).json({
         message: 'The identity ID is required',
         status: 400
