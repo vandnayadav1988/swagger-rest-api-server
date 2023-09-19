@@ -1,6 +1,6 @@
 type: object
 required:
-  - identityID
+  - identityIDold
 properties:
   identityID:
     type: string
